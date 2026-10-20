@@ -1,0 +1,36 @@
+{
+  "code": 0,
+  "msg": "获取同传结果成功",
+  "total": 1,
+  "list": [
+    {
+      "all_content": [
+        {
+          "BeginSec": 66,
+          "Text": "片段",
+          "TransText": "片段",
+          "EndSec": 67
+        },
+        {
+          "BeginSec": 69,
+          "Text": "片段",
+          "TransText": "片段",
+          "EndSec": 70
+        },
+        {
+          "BeginSec": 72,
+          "Text": "片段",
+          "TransText": "片段",
+          "EndSec": 73
+        }
+      ],
+      "trans_content": "片段",
+      "sub_id": "1544498",
+      "resource_guid": "",
+      "trans_type": "ainew",
+      "zh_num": 521,
+      "en_num": 0,
+      "en_rate": 0
+    }
+  ]
+}

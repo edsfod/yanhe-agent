@@ -1,0 +1,162 @@
+{
+  "message": "",
+  "code": 1000,
+  "status": 200,
+  "params": {
+    "result": {
+      "data": [
+        {
+          "Id": 100001,
+          "Thumb": "https://aita.yanhekt.cn/redacted.png",
+          "ExtractThumb": "",
+          "Title": "某课程",
+          "Teacher": "某人",
+          "Type": "multi",
+          "Model": "public",
+          "StartAt": 0,
+          "EndAt": 0,
+          "Publish": 1,
+          "DeletedAt": 0,
+          "TenantCode": "21",
+          "Username": "redacted",
+          "Realname": "某人",
+          "Zhujiao": false,
+          "KkxyName": "某人",
+          "KkxyCode": "0",
+          "ClickRecordNum": 70,
+          "SubjectProgress": 0,
+          "PrevSubjectId": 0,
+          "PrevSubjectPublish": "",
+          "PrevSubjectType": "",
+          "PrevLearnTime": "",
+          "RecordLearnTime": "",
+          "LiveStatus": 2,
+          "IsExport": 2,
+          "course_exist": 100001,
+          "MyApply": 1,
+          "Teachers": [
+            {
+              "Username": "redacted",
+              "Realname": "某人",
+              "IsSpeaker": 1
+            }
+          ],
+          "Term": "_42_",
+          "TermName": "2026-2027-1",
+          "zhiyuan_id": "100001",
+          "information": "{\"kcdm\":\"0\",\"kkxn\":\"2026-2027\",\"kkxq\":\"1\",\"kcwybm\":\"0\"}",
+          "qcount": "0",
+          "acount": "0",
+          "progress": {
+            "learnNum": 0,
+            "recordNum": 0,
+            "subjectNum": 0,
+            "subjectProgress": 0
+          }
+        },
+        {
+          "Id": 100002,
+          "Thumb": "https://aita.yanhekt.cn/redacted.png",
+          "ExtractThumb": "",
+          "Title": "某课程",
+          "Teacher": "某人",
+          "Type": "multi",
+          "Model": "public",
+          "StartAt": 0,
+          "EndAt": 0,
+          "Publish": 1,
+          "DeletedAt": 0,
+          "TenantCode": "21",
+          "Username": "redacted",
+          "Realname": "某人",
+          "Zhujiao": false,
+          "KkxyName": "某人",
+          "KkxyCode": "0",
+          "ClickRecordNum": 0,
+          "SubjectProgress": 0,
+          "PrevSubjectId": 0,
+          "PrevSubjectPublish": "",
+          "PrevSubjectType": "",
+          "PrevLearnTime": "",
+          "RecordLearnTime": "",
+          "LiveStatus": 2,
+          "IsExport": 2,
+          "course_exist": 100002,
+          "MyApply": 1,
+          "Teachers": [
+            {
+              "Username": "redacted",
+              "Realname": "某人",
+              "IsSpeaker": 1
+            }
+          ],
+          "Term": "_42_",
+          "TermName": "2026-2027-1",
+          "zhiyuan_id": "100002",
+          "information": "{\"kcdm\":\"0\",\"kkxn\":\"2026-2027\",\"kkxq\":\"1\",\"kcwybm\":\"0\"}",
+          "qcount": "0",
+          "acount": "0",
+          "progress": {
+            "learnNum": 0,
+            "recordNum": 0,
+            "subjectNum": 0,
+            "subjectProgress": 0
+          }
+        },
+        {
+          "Id": 100003,
+          "Thumb": "https://aita.yanhekt.cn/redacted.png",
+          "ExtractThumb": "https://aita.yanhekt.cn/play/redacted.jpg",
+          "Title": "某课程",
+          "Teacher": "某人",
+          "Type": "multi",
+          "Model": "public",
+          "StartAt": 0,
+          "EndAt": 1792511999,
+          "Publish": 1,
+          "DeletedAt": 0,
+          "TenantCode": "21",
+          "Username": "redacted",
+          "Realname": "某人",
+          "Zhujiao": false,
+          "KkxyName": "某人",
+          "KkxyCode": "0",
+          "ClickRecordNum": 149,
+          "SubjectProgress": 0,
+          "PrevSubjectId": 0,
+          "PrevSubjectPublish": "",
+          "PrevSubjectType": "",
+          "PrevLearnTime": "",
+          "RecordLearnTime": "",
+          "LiveStatus": 3,
+          "IsExport": 2,
+          "course_exist": 100003,
+          "MyApply": 1,
+          "Teachers": [
+            {
+              "Username": "redacted",
+              "Realname": "某人",
+              "IsSpeaker": 1
+            }
+          ],
+          "Term": "_42_",
+          "TermName": "2026-2027-1",
+          "zhiyuan_id": "100003",
+          "information": "{\"kcdm\":\"0\",\"kkxn\":\"2026-2027\",\"kkxq\":\"1\",\"kcwybm\":\"0\"}",
+          "qcount": "0",
+          "acount": "0",
+          "progress": {
+            "learnNum": 0,
+            "recordNum": 0,
+            "subjectNum": 5,
+            "subjectProgress": 0
+          }
+        }
+      ],
+      "page": 1,
+      "total": 45,
+      "per-page": 3
+    },
+    "t": null
+  }
+}

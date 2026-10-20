@@ -1,0 +1,42 @@
+{
+  "name": "yanhe-agent",
+  "version": "0.1.0",
+  "description": "An agent plugin for BIT's Yanhekt lectures, used with the AutoSlides app: fetch recordings and slides, transcribe with BCut and embed the subtitles, build slide PDFs, keep lecture and course notes, and answer questions about a course.",
+  "author": {
+    "name": "edsfod"
+  },
+  "license": "MIT",
+  "keywords": [
+    "yanhekt",
+    "bit",
+    "autoslides",
+    "lecture",
+    "transcript",
+    "notes"
+  ],
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Yanhe Agent",
+        "shortDescription": "延河课堂工具包",
+        "longDescription": "配合 AutoSlides 处理延河课堂的录播课：下载录播和 PPT，用必剪转录并把字幕嵌进录像，把 PPT 整理成课件 PDF，写课次笔记和课程总结，回答关于课程的问题。",
+        "developerName": "edsfod",
+        "category": "Productivity",
+        "capabilities": [
+          "Read",
+          "Write"
+        ],
+        "logo": "./assets/icon.svg",
+        "logoDark": "./assets/icon-dark.svg",
+        "composerIcon": "./assets/icon.svg",
+        "composerIconDark": "./assets/icon-dark.svg",
+        "defaultPrompt": [
+          "XXX 最近几节课有没有点名、留了什么作业？",
+          "把 XXX 这门课每节的 PPT 整理成课件 PDF。",
+          "帮我整理 XXX 这门课的录播、字幕和 PPT，写好笔记，再列一份复习提纲。"
+        ]
+      }
+    }
+  }
+}

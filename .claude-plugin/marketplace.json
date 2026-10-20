@@ -1,0 +1,14 @@
+{
+  "name": "edsfod",
+  "description": "Agent plugins for BIT's Yanhekt (延河课堂) lectures",
+  "owner": {
+    "name": "edsfod"
+  },
+  "plugins": [
+    {
+      "name": "yanhe-agent",
+      "source": "./",
+      "description": "An agent plugin for BIT's Yanhekt lectures, used with the AutoSlides app: fetch recordings and slides, transcribe with BCut and embed the subtitles, build slide PDFs, keep lecture and course notes, and answer questions about a course."
+    }
+  ]
+}

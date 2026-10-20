@@ -1,0 +1,17 @@
+{
+  "name": "yanhe-agent",
+  "version": "0.1.0",
+  "description": "An agent plugin for BIT's Yanhekt lectures, used with the AutoSlides app: fetch recordings and slides, transcribe with BCut and embed the subtitles, build slide PDFs, keep lecture and course notes, and answer questions about a course.",
+  "author": {
+    "name": "edsfod"
+  },
+  "license": "MIT",
+  "keywords": [
+    "yanhekt",
+    "bit",
+    "autoslides",
+    "lecture",
+    "transcript",
+    "notes"
+  ]
+}

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Yanhe Agent"
+  short_description: "延河课堂工具包"
+  default_prompt: "用 $yanhe-agent 配合 AutoSlides 处理我的延河课堂课程：下载录播和 PPT、转录字幕、查点名作业和考试，并维护课程与课次笔记。"
+
+policy:
+  allow_implicit_invocation: true
