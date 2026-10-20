@@ -96,7 +96,11 @@ def run(*args, timeout=120):
   try:
     answer = json.loads(result.stdout.decode('utf-8'))
   except ValueError:
-    raise AutoSlidesError('failed', f'AutoSlides gave no answer (exit status {result.returncode})') from None
+    raise AutoSlidesError(
+      'failed',
+      f'AutoSlides gave no answer (exit status {result.returncode}); '
+      'release 5.1.0 has no command line, a build from its main does',
+    ) from None
   if not answer.get('ok'):
     error = answer.get('error') or {}
     code = error.get('code', 'failed')

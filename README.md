@@ -13,7 +13,7 @@ yanhe-agent 是一个 Agent 插件，让 Claude Code、Codex 这类 Agent 替你
 
 ## 准备
 
-1. 安装 [AutoSlides](https://github.com/bit-admin/Yanhekt-AutoSlides)，打开并登录。在它的用户菜单里看一眼「延河 2.0 账号」是否也显示已登录。之后用 yanhe-agent 时让 AutoSlides 开着。
+1. 安装 [AutoSlides](https://github.com/bit-admin/Yanhekt-AutoSlides)，打开并登录。yanhe-agent 要用它的命令行，命令行只在 2026-10-18 之后的 main 里，正式版 5.1.0 还没有，所以要按它 README 的「开发者指南」从 main 构建（Windows 用 `npm run make:win` 生成安装包）。在它的用户菜单里看一眼「延河 2.0 账号」是否也显示已登录。之后用 yanhe-agent 时让 AutoSlides 开着。
 2. 在你用的 Harness 里装插件：
 
    - Claude Code：在会话里输入
