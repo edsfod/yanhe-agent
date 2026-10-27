@@ -1,0 +1,195 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": {
+    "course_type": "multi",
+    "course_id": "102122",
+    "course_language": "",
+    "question_auth": "0",
+    "sub_id": "1544498",
+    "sub_title": "2026-09-25第8-10节",
+    "resource_id": "0",
+    "resource_guid": "e274f94ca1644e4b96301c2de1116744",
+    "sub_type": "course_live",
+    "start_at": "1790320500",
+    "end_at": "1790329200",
+    "begin_time": "1790320500",
+    "end_time": "1790329292",
+    "sub_status": "6",
+    "is_allow_video_drag": "1",
+    "is_allow_speed_up": null,
+    "lecturer": "6120102988",
+    "lecturer_name": "某人",
+    "show": "yes",
+    "open_barrage": "1",
+    "is_public": "4",
+    "sub_review_type": "1",
+    "room": "638",
+    "room_name": "某人",
+    "sub_precondition_type": null,
+    "is_open": "1",
+    "is_share": "2",
+    "is_export": "2",
+    "is_open_note": "1",
+    "bind_id": null,
+    "sub_delayed_release": "0",
+    "content": {
+      "id": 1298,
+      "start_at": 1735113365,
+      "end_at": 1892879765,
+      "aid": 1298,
+      "trans_socket_url": "",
+      "room_id": 450,
+      "address": "某人",
+      "auto_task": {
+        "startlive": 1619186,
+        "endlive": 1619190
+      },
+      "process_type": "processing",
+      "save_playback": {
+        "contents": "https://aita.yanhekt.cn/play/redacted.m3u8",
+        "contents_duration": 8929,
+        "play_msg": "cdn鉴权完成"
+      },
+      "playback": {
+        "url": "https://aita.yanhekt.cn/play/redacted.mp4",
+        "path": "w:\\\\frim_files\\\\teacher2026\\\\2026-09-25\\\\2026-09-26\\\\7C9CC407B9B827212FC5EE59A0802EF3_1080p.mp4"
+      }
+    },
+    "duration": "8929",
+    "sub_data_type": "course_live",
+    "room_type": "0",
+    "enable_translation": 0,
+    "teach_class_name": "redacted",
+    "inspection_start_time": "",
+    "inspection_end_time": "",
+    "inspection_content": "",
+    "segment_name": "redacted",
+    "rec_tag": "",
+    "segment_info": "",
+    "surv_data": "",
+    "precondition_time": 1,
+    "course_title": "操作系统",
+    "custom_module_id": "0",
+    "course_mark": "",
+    "teachers": {
+      "0": {
+        "username": "redacted",
+        "realname": "某人",
+        "is_speaker": "1",
+        "pro": null,
+        "brief": null,
+        "avatar": null,
+        "user_id": "redacted",
+        "kkxy_code": "207",
+        "kkxy_name": "计算机学院"
+      }
+    },
+    "tenant_code": "21",
+    "video_list": {
+      "0": {
+        "id": "1969514",
+        "resource_guid": "e274f94ca1644e4b96301c2de1116744",
+        "type": "3",
+        "iva_source_id": null,
+        "status": "2",
+        "created_at": "1790320500",
+        "preview_url": "https://aita.yanhekt.cn/play/redacted.m3u8",
+        "thumb": "https://aita.yanhekt.cn/play/redacted.jpg",
+        "duration": "8929",
+        "temp_preivew_url": null,
+        "time_offset": "0",
+        "play_msg": "cdn鉴权完成"
+      },
+      "1": {
+        "id": "1969518",
+        "resource_guid": "e16a7f7e64674304861e302284d80cb8",
+        "type": "2",
+        "iva_source_id": null,
+        "status": "2",
+        "created_at": "1790320500",
+        "preview_url": "https://aita.yanhekt.cn/play/redacted.mp4",
+        "thumb": "https://aita.yanhekt.cn/play/redacted.jpg",
+        "duration": "8926",
+        "temp_preivew_url": null,
+        "time_offset": "0",
+        "play_msg": "cdn鉴权完成"
+      },
+      "2": {
+        "id": "1967474",
+        "resource_guid": "960179a2f98b4515ab854ff646b3c601",
+        "type": "4",
+        "iva_source_id": "813810",
+        "status": "2",
+        "created_at": "1790320455",
+        "preview_url": "https://aita.yanhekt.cn/play/redacted.mp4",
+        "thumb": "https://aita.yanhekt.cn/play/redacted.jpg",
+        "duration": "8836",
+        "temp_preivew_url": null,
+        "time_offset": "0",
+        "play_msg": "cdn鉴权完成"
+      }
+    },
+    "segment_video_list": {
+      "0": {
+        "teacher_list": {
+          "id": "1969514",
+          "resource_guid": "e274f94ca1644e4b96301c2de1116744",
+          "type": "3",
+          "iva_source_id": null,
+          "status": "2",
+          "created_at": "1790320500",
+          "preview_url": "https://aita.yanhekt.cn/play/redacted.m3u8",
+          "thumb": "https://aita.yanhekt.cn/play/redacted.jpg",
+          "duration": "8929",
+          "temp_preivew_url": null,
+          "time_offset": "0"
+        },
+        "student_list": {
+          "id": "1967474",
+          "resource_guid": "960179a2f98b4515ab854ff646b3c601",
+          "type": "4",
+          "iva_source_id": "813810",
+          "status": "2",
+          "created_at": "1790320455",
+          "preview_url": "https://aita.yanhekt.cn/play/redacted.mp4",
+          "thumb": "https://aita.yanhekt.cn/play/redacted.jpg",
+          "duration": "8836",
+          "temp_preivew_url": null,
+          "time_offset": "0"
+        },
+        "ppt_list": {
+          "id": "1969518",
+          "resource_guid": "e16a7f7e64674304861e302284d80cb8",
+          "type": "2",
+          "iva_source_id": null,
+          "status": "2",
+          "created_at": "1790320500",
+          "preview_url": "https://aita.yanhekt.cn/play/redacted.mp4",
+          "thumb": "https://aita.yanhekt.cn/play/redacted.jpg",
+          "duration": "8926",
+          "temp_preivew_url": null,
+          "time_offset": "0"
+        }
+      }
+    },
+    "audio_list": {
+      "0": {
+        "start_time": 42,
+        "url": "https://aita.yanhekt.cn/play/redacted.aac"
+      }
+    },
+    "playurl": {
+      "0": "https://aita.yanhekt.cn/play/redacted.m3u8"
+    },
+    "play_msg": "未找到任务信息",
+    "is_m3u8": "no",
+    "custom_column": {},
+    "count_collect": "0",
+    "count_praise": "0",
+    "collected": false,
+    "praised": false,
+    "catalog_info": null,
+    "now": 1792462087
+  }
+}

@@ -1,0 +1,6 @@
+src = ['skills/yanhe-agent/scripts']
+line-length = 120
+indent-width = 2
+
+[format]
+quote-style = 'single'

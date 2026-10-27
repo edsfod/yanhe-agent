@@ -1,0 +1,12 @@
+{
+  "name": "edsfod",
+  "interface": { "displayName": "Yanhe Agent" },
+  "plugins": [
+    {
+      "name": "yanhe-agent",
+      "source": { "source": "local", "path": "./" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_USE" },
+      "category": "Productivity"
+    }
+  ]
+}

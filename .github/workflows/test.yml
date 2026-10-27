@@ -1,0 +1,19 @@
+name: test
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v7
+      - uses: astral-sh/setup-uv@v10.3.0 # publishes no major-version tag
+      - run: uvx ruff check skills/yanhe-agent/scripts tests
+      - run: uvx ruff format --check skills/yanhe-agent/scripts tests
+      - run: uv run --no-project --with-requirements skills/yanhe-agent/scripts/yanhe_agent.py --with pytest pytest tests
