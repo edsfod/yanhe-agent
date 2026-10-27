@@ -1,5 +1,7 @@
 # yanhe-agent：在 Agent 里用延河课堂
 
+> **本项目已停止维护，仓库只读。** 处理录像、写笔记和整理一门课的部分已并入 [video-agent](https://github.com/edsfod/video-agent)：逐个视频的总结、合集总结、学习提纲和自测题、字幕整理版。延河课堂平台相关的部分（查课、平台字幕、下载录播）等待 [AutoSlides](https://github.com/bit-admin/Yanhekt-AutoSlides) 的命令行实现，见 [AutoSlides #35](https://github.com/bit-admin/Yanhekt-AutoSlides/issues/35)。
+
 yanhe-agent 是一个 Agent 插件，让 Claude Code、Codex 这类 Agent 替你处理北理工延河课堂的录播课。它和桌面应用 [AutoSlides](https://github.com/bit-admin/Yanhekt-AutoSlides) 搭配使用：AutoSlides 负责登录、下载录像、从屏幕录像里提取 PPT，也是你看录播和 PPT 的地方；yanhe-agent 读新版延河课堂（<https://aita.yanhekt.cn>）的课程和字幕，把录音转成更准的字幕嵌进录像，再整理成笔记、回答你关于课程的问题。
 
 本项目最初受 [windlandneko/yanhekit](https://github.com/windlandneko/yanhekit) 启发，现在的代码和文档由 [edsfod](https://github.com/edsfod) 编写和维护。
